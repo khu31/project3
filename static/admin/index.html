@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Content Manager</title>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 </head>
 <body>
+  <!-- Include Netlify Identity and Netlify CMS -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
   <script>
+    // Wait for the DOM content to be fully loaded
     document.addEventListener('DOMContentLoaded', function() {
       // Initialize Netlify Identity
       if (window.netlifyIdentity) {
@@ -17,6 +22,11 @@
             });
           }
         });
+      }
+
+      // Initialize Netlify CMS
+      if (window.CMS) {
+        window.CMS.init();
       }
     });
   </script>
