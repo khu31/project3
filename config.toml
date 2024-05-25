@@ -1,4 +1,4 @@
-baseURL = "http://blog.artisticaura.com/"
+baseURL = "https://artistichandmade.netlify.app/"
 languageCode = "en-us"
 title = "Art of Hastkala"
 theme = "hugo-PaperMod"
