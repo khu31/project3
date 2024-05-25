@@ -1,0 +1,27 @@
+baseURL = "http://blog.artisticaura.com/"
+languageCode = "en-us"
+title = "Art of Hastkala"
+theme = "hugo-PaperMod"
+
+paginate = 5
+
+[params]
+  author = "Khushi"
+  description = "Exploring the world of Hastkala"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  disqusShortname = "artisticaura"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    noClasses = true
+    style = "monokai"
