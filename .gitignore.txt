@@ -1,0 +1,16 @@
+# Hugo build lock file
+.hugo_build.lock
+
+# Hugo specific folders
+/public/
+/resources/_gen/
+/node_modules/
+/deploy/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific folders
+.idea/
+.vscode/
