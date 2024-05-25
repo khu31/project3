@@ -16,6 +16,8 @@ paginate = 5
   disableSpecial1stPost = false
   disableScrollToTop = false
   disqusShortname = "artisticaura"
+  cover_alt = "Beautiful Hastkala artwork"
+  cover_caption = "Hastkala - An exquisite form of traditional art."
 
 [markup]
   defaultMarkdownHandler = "goldmark"

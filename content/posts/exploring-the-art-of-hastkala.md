@@ -2,11 +2,10 @@
 title = "Exploring the Art of Hastkala"
 date = "2023-05-23T12:00:00Z"
 draft = false
-cover = { 
-  image = "/images/ht.jpg",
-  alt = "Beautiful Hastkala artwork",
+[cover]
+  image = "https://www.shutterstock.com/image-photo/faridabad-haryana-india-february-2023-600nw-2266330761.jpg"
+  alt = "Beautiful Hastkala artwork"
   caption = "Hastkala - An exquisite form of traditional art."
-}
 categories = ["Art"]
 tags = ["Hastkala", "Traditional Art", "Handcraft"]
 +++
